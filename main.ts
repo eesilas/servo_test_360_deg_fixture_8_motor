@@ -1,0 +1,12 @@
+basic.showIcon(IconNames.Surprised)
+basic.forever(function () {
+    SuperBit.Servo3(SuperBit.enServo.S1, SuperBit.enPos.forward, 90)
+    SuperBit.Servo3(SuperBit.enServo.S2, SuperBit.enPos.forward, 90)
+    SuperBit.Servo3(SuperBit.enServo.S3, SuperBit.enPos.forward, 90)
+    SuperBit.Servo3(SuperBit.enServo.S4, SuperBit.enPos.forward, 90)
+    SuperBit.Servo3(SuperBit.enServo.S5, SuperBit.enPos.forward, 90)
+    SuperBit.Servo3(SuperBit.enServo.S5, SuperBit.enPos.forward, 90)
+    SuperBit.Servo3(SuperBit.enServo.S6, SuperBit.enPos.forward, 90)
+    SuperBit.Servo3(SuperBit.enServo.S7, SuperBit.enPos.forward, 90)
+    SuperBit.Servo3(SuperBit.enServo.S8, SuperBit.enPos.forward, 90)
+})
